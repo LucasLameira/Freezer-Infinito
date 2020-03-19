@@ -12,7 +12,7 @@ import webbrowser
 try:
     # Python2
     import Tkinter as tk
-    from tkinter import ttk
+    from Tkinter import ttk
 except ImportError:
     # Python3
     import tkinter as tk
