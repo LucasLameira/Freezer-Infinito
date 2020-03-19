@@ -7,6 +7,7 @@ Freezer Infinito
 from qrcode_generator import QRcode
 import pandas as pd
 import os.path
+import webbrowser
 
 try:
     # Python2
@@ -165,6 +166,13 @@ class Main:
                 
         self.gen_qrcode = tk.Button(self.window, text="Gerar QRcode", command=generate_qrcode)
         self.gen_qrcode.grid(column=3, row=9)
+        
+        # function to access site
+        def access_site():
+            webbrowser.open('https://sites.google.com/view/equipe-7')
+            
+        self.go_site = tk.Button(self.window, text="Visualizar dados", command=access_site)
+        self.go_site.grid(column=4, row=9) 
         
         # Delete listbox selection
         def delete():
