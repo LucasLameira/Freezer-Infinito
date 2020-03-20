@@ -28,10 +28,10 @@ class Main:
         self.window.title("Freezer Infinito")
         
         # add labels
-        self.label_1 = tk.Label(self.window, text="ASs cadastradas:")
+        self.label_1 = tk.Label(self.window, text="Auto Serviços cadastrados:")
         self.label_1.grid(column=0, row=2)
         
-        self.label_2 = tk.Label(self.window, text="Cadastro de nova AS:")
+        self.label_2 = tk.Label(self.window, text="Cadastro de novo AS:")
         self.label_2.grid(column=2, row=0)
         
         self.label_3 = tk.Label(self.window, text="Nome")
@@ -157,7 +157,7 @@ class Main:
         def generate_qrcode(): 
             selection = self.listbox.curselection()
             if selection==():
-                self.var_1.set("Selecione uma AS") 
+                self.var_1.set("Selecione um AS") 
             else:
                 data = self.listbox.get(selection)
                 print(data)
@@ -178,10 +178,10 @@ class Main:
         def delete():
             selection = self.listbox.curselection()
             if selection==():
-                self.var_4.set("Selecione uma AS")
+                self.var_4.set("Selecione um AS")
             else:
                 self.listbox.delete(selection)
-                self.var_4.set("AS deletada")
+                self.var_4.set("AS deletado")
             save()
         
         self.delete_name = tk.Button(self.window, text="Deletar", command=delete)
@@ -207,7 +207,7 @@ class Main:
                 self.entry_4.delete(0, 'end')
                 self.entry_5.delete(0, 'end')
                 save()
-                self.var_2.set("AS cadastrada")
+                self.var_2.set("AS cadastrado")
 
         self.add = tk.Button(self.window, text="Adicionar", command=add)
         self.add.grid(column=6, row=2)   
