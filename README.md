@@ -20,4 +20,8 @@ https://www.producthunt.com/posts/freezer-infinito
 
 ## Install
 
+Instale as seguintes dependências para rodar o programa.
+
 `pip install qrcode`
+
+` pip install pandas`
