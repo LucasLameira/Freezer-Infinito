@@ -3,4 +3,11 @@ Software realizado durante a participação no BRASA Hacks 2020.
 
 O MVP realizado para o desafio consiste em uma interface gráfica programada em linguagem Python, onde é possível realizar a gestão dos clientes de Autos Serviços para as cidades em que o Zé Delivery atua, com a finalidade de gerar um QRcode para cada Auto Serviço.
 
+![GitHub Logo](/images/interface_mvp.png)
+Format: ![Alt Text](url)
 
+No MVP realizado o QRcode direciona para o site do Zé Delivery. O Zé Delivery então receberia os dados referentes aos Auto Serviços e retorna dados sobre a disponibilidade dos produtos. Os dados são então enviados a um site onde se pode visualizar a indisponibilidade das cervejas em cada ponto de venda.
+
+Para o desafio, como não temos acesso aos dados do Zé Delivery, os dados dos charts disponíveis no site foram criados e odem ser atualizado por um google sheets.
+
+http://github.com - automatic![GitHub](https://sites.google.com/view/equipe-7)
