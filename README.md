@@ -25,9 +25,11 @@ Instale as seguintes dependências para rodar o programa.
 ```
 pip install qrcode
 ```
-
 ```
 pip install pandas
 ```
+```
+pip install path
+```
 
-O programa foi testado e funcionou corretamente com as versões **pyqrcode 1.2.1**, **pandas 0.25.3**.  
+O programa foi testado e funcionou corretamente com as versões Python 3.7.4, pyqrcode 1.2.1, pandas 0.25.3, path 13.1.0.  
