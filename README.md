@@ -29,3 +29,5 @@ pip install qrcode
 ```
 pip install pandas
 ```
+
+O programa foi testado e funcionou corretamente com as versões **pyqrcode 1.2.1**, **pandas 0.25.3**.  
