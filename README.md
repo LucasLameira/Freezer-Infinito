@@ -8,6 +8,7 @@ Format: ![Alt Text](url)
 
 No MVP realizado o QRcode direciona para o site do Zé Delivery. O Zé Delivery então receberia os dados referentes aos Auto Serviços e retorna dados sobre a disponibilidade dos produtos. Os dados são então enviados a um site onde se pode visualizar a indisponibilidade das cervejas em cada ponto de venda.
 
-Para o desafio, como não temos acesso aos dados do Zé Delivery, os dados dos charts disponíveis no site foram criados e odem ser atualizado por um google sheets.
+Para o desafio, como não temos acesso aos dados do Zé Delivery, os dados dos charts disponíveis no site foram criados e podem ser atualizados por um google sheets.
 
-http://github.com - automatic![GitHub](https://sites.google.com/view/equipe-7)
+Link do site para análise dos dados:
+https://sites.google.com/view/equipe-7
