@@ -17,3 +17,7 @@ https://www.youtube.com/watch?v=4CTg4hWMhvA&feature=youtu.be
 
 Link do Product Hunt:
 https://www.producthunt.com/posts/freezer-infinito
+
+## Install
+
+`pip install qrcode`
